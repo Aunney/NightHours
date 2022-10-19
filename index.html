@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nighthour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <header> 
+    <ul>
+      <li><a href="index.html" class="active"> Home </a></li>
+      <li><a href="https://www.google.co.th/"> Projects </a></li>
+      <li><a href="about.html"> ??? </a></li>
+      <li><a href="contact.html"> ??? </a></li>
+    </ul>
+  </header>
+  <section>
+    <img src="star.png" id="star">
+    <img src="moon.png" id="moon">
+    <img src="egyptnight.png" id="enight">
+    <img src="enight.png" id="eborder">
+    
+    <h2 id="text">Nighthour</h2>
+  </section>
+  
+  <h1> This website is my first website!! <br>and it's gonna tell you a story of the night.</h1>
+  <p id="thenight"> " The night is the part of each day when the sun has set and it is dark outside, especially the time when people are sleeping " </p>
+  <p id="story">  sit back relax and let the night tell it's story...</p>
+  
+  <p id="lstory"> &nbsp; &nbsp; Once their were two girls who shared a college dorm together. Their names were Meg and Venida. </p>
+  <p id="lstory"> The girls were out partying one night. Meg noticed she forgot her purse and went back quickly to the dorm. </p>
+  <p id="lstory"> Without turning on the lights she walked in and grabbed the purse. Then she returned to the party. </p>
+  <p id="lstory"> Later on in the night, Venida got tired. She left to the dorm to go to sleep. </p>
+  <p id="lstory"> The next morning, Meg went back to the dorm. The police officers were outside. </p>
+  <p id="lstory"> ” Officer, what’s the problem?” She asked. </p>
+  <p id="lstory"> ” There has been a murderer.” </p>
+  <p id="lstory"> ” Oh my god. Please let me see.” </p>
+  <p id="lstory"> “No. It’s a bit to sloppy.” Said the officer. </p>
+  <p id="lstory"> “Please.” Finally, the officer let Venida upstairs. </p>
+  <p id="lstory"> When she walked in the room she saw her roomate covered with a clean white sheet. </p>
+  <p id="lstory"> On the mirror in big, red letters words said: </p> 
+  <p id="red"> ” AREN’T YOU GLAD YOU DIDN’T TURN ON THE LIGHT?” </p>
+  
+  <script>  
+    let star = document.getElementById("star");
+    let moon = document.getElementById("moon");
+    let enight = document.getElementById("enight");
+    
+    window.addEventListener("scroll", function(){
+      let value = window.scrollY;
+      star.style.left = value * 0.25 + "px";
+      moon.style.top = value * 0.5 + "px";
+    })
+
+  </script>
+</body>
+</html>

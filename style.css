@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px){
+    
+}
+
+
+body 
+{
+    background-image: linear-gradient(#070029,#45144e);
+    min-height: 100px;
+    overflow-x: hidden;
+}
+
+header ul 
+{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+header ul li 
+{
+    list-style: none;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header ul li a 
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+}
+
+header ul li a:hover, header ul li a.active
+{
+    background-color: aliceblue;
+    color:rgb(22, 21, 20)
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#45144e,transparent);
+    z-index: 1000;
+}
+section img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    font-size: 60px;
+    background-color: #45144e;
+    padding: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 100px;
+  
+    
+}
+
+#thenight
+{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color:azure;
+    background-color: rgb(19, 2, 48);
+    padding: 60px;
+}
+
+section img#moon
+{
+    mix-blend-mode: screen;
+    z-index: 300;
+}
+
+section img#star
+{
+    z-index: 300;
+}
+
+
+section img#enight
+{
+    z-index: 291;
+}
+
+section img#eborder
+{
+    z-index: 301;
+}
+
+#story 
+{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 100px;
+    color:aliceblue;
+    background-color: #2f1849;
+    text-indent: 300px;
+    padding-bottom: 60px;
+}
+
+#light
+{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 500px;
+    background-color: #2f1849;
+    color:aliceblue;
+    padding-bottom: 0;
+}
+
+#lstory
+{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 400px;
+    background-color: #2f1849;
+    padding: 10px;
+    color:aliceblue;
+    padding-top: 0;
+    line-height: 50px;
+    
+}
+
+#red
+{
+    color:red;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 400px;
+    background-color: #2f1849;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+#text
+{
+    color:aliceblue;
+    font-size: 80px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    z-index: 500;
+    letter-spacing: 10px;
+}
